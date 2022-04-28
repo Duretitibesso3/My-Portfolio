@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+header {
+  font-size: 10px;
+  color: #6070ff;
+  margin: 0;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 40px;
+}
+
+.logo a {
+  display: grid;
+  place-items: center;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.fa-solid {
+  color: blue;
+  padding-top: 20px;
+}
+
+.section1 {
+  background: url("img/mobile-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #172b4d;
+  padding-top: 80px;
+}
+
+main {
+  padding: 10px 40px;
+}
+
+main h1 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+main p {
+  font-weight: 400;
+  padding-top: 25px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#foot {
+  color: #7f8cff;
+  padding: 10px 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  height: 24px;
+  font-style: normal;
+}
+
+.socials {
+  margin: 0;
+  color: #344563;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
