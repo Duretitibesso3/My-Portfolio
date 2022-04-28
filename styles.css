@@ -19,10 +19,11 @@ header {
   padding: 10px 40px;
 }
 
-.logo {
+.logo a {
   display: grid;
   place-items: center;
   padding-top: 20px;
+  text-decoration: none;
 }
 
 .fa-solid {
@@ -35,7 +36,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   color: #172b4d;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 main {
@@ -62,6 +63,7 @@ main p {
   font-size: 16px;
   line-height: 24px;
   height: 24px;
+  font-style: normal;
 }
 
 .socials {
