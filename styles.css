@@ -22,39 +22,51 @@ header {
 .logo {
   display: grid;
   place-items: center;
+  padding-top: 20px;
 }
 
 .fa-solid {
   color: blue;
+  padding-top: 20px;
+}
+
+.section1 {
+  background: url("img/mobile-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #172b4d;
+  padding-top: 100px;
 }
 
 main {
   padding: 10px 40px;
-  background: url("img/Header.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #172b4d;
 }
 
 main h1 {
   font-size: 40px;
   line-height: 52px;
+  font-weight: 700;
 }
 
 main p {
   font-weight: 400;
   padding-top: 25px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 #foot {
-  font-weight: 200;
   color: #7f8cff;
   padding: 10px 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  height: 24px;
 }
 
 .socials {
-  color: #344563;
   margin: 0;
+  color: #344563;
 }
 
 ul {
