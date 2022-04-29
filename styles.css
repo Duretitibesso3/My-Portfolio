@@ -94,7 +94,7 @@ ul {
   border-radius: 16px;
 }
 
-.card h1 {
+.card h2 {
   color: #172b4d;
   font-size: 32px;
   line-height: 44px;
@@ -119,8 +119,8 @@ ul {
 
 .exp img {
   width: 2%;
-  height: 25%;
-  margin-top: 20px;
+  height: 20%;
+  margin-top: 15px;
   display: flex;
 }
 
