@@ -129,6 +129,7 @@ ul {
   font-weight: 600;
   font-size: 13px;
   padding-top: 10px;
+  line-height: 16px;
 }
 
 .par {
@@ -144,7 +145,7 @@ ul {
   gap: 20px;
   align-items: flex-end;
   padding-left: 0;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .programming > li {
@@ -169,6 +170,7 @@ button {
   border-radius: 10px;
   padding: 10px 8px;
   background-color: #fff;
+  margin-top: 20px;
 }
 
 /* About Me section */
@@ -202,6 +204,7 @@ button {
   height: 24px;
   font-style: normal;
   padding-top: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .soc {
