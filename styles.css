@@ -163,12 +163,12 @@ button {
   font-family: inherit;
   cursor: pointer;
   flex-basis: auto;
-  width: 40%;
+  width: 80%;
   color: #396df2;
   font-size: 17px;
   border: 1px solid #396df2;
   border-radius: 10px;
-  padding: 10px 8px;
+  padding: 12px 8px;
   background-color: #fff;
   margin-top: 20px;
 }
