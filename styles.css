@@ -306,9 +306,10 @@ button {
   flex-wrap: wrap;
   align-items: center;
   margin-top: 10%;
-  background-image: url("images/mobile-bg.png");
+  background-image: url("images/contactform.png");
   background-image: url("images/Contactmebg.png");
   background-size: cover;
+  padding: 10px 40px;
 }
 
 .contact-me {
@@ -362,7 +363,7 @@ button {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  width: 20em;
+  width: 120px;
   letter-spacing: 0.03em;
   justify-content: center;
   color: #6070ff;
@@ -391,10 +392,9 @@ button {
 }
 
 .second_background {
-  background-image: url("images/mobile-bg.png");
-  background-size: contain;
+  background-image: url("images/contactform.png");
   background-repeat: no-repeat;
-  background-position: -9px 29px;
+  background-size: cover;
 }
 
 .scroll {
