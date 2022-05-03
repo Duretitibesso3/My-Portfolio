@@ -75,7 +75,7 @@ main p {
 ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 /* work section */
@@ -305,10 +305,11 @@ button {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 10%;
-  background-image: url("images/mobile-bg.png");
+  background-image: url("images/contactform.png");
   background-image: url("images/Contactmebg.png");
   background-size: cover;
+  padding: 10px 40px;
+  margin-top: 30%;
 }
 
 .contact-me {
@@ -346,13 +347,13 @@ button {
 }
 
 .message_box {
+  margin-top: -4%;
   display: flex;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  height: 6em;
+  height: 15em;
   width: 327px;
-  margin: 5px;
 }
 
 .contact_button {
@@ -362,16 +363,15 @@ button {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  width: 20em;
-  text-align: center;
+  width: 120px;
   letter-spacing: 0.03em;
+  justify-content: center;
   color: #6070ff;
-  align-items: flex-start;
-
-  /* margin-left: -30%;*/
-
   border-radius: 5px;
   border: unset;
+  padding: 10px;
+  margin-top: 2%;
+  align-self: flex-start;
 }
 
 .contact_button:hover {
@@ -387,13 +387,21 @@ button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: flex-start;
+  margin-top: 5%;
 }
 
 .second_background {
-  background-image: url("images/mobile-bg.png");
-  background-size: contain;
+  background-image: url("images/contactform.png");
   background-repeat: no-repeat;
-  background-position: -9px 29px;
+  background-size: contain;
+  background-position: 100% 40%;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  padding-top: 6px;
+  margin-top: 67px;
 }
