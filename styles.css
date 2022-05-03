@@ -367,11 +367,11 @@ button {
   letter-spacing: 0.03em;
   justify-content: center;
   color: #6070ff;
-  align-items: flex-start;
   border-radius: 5px;
   border: unset;
   padding: 10px;
   margin-top: 2%;
+  align-self: flex-start;
 }
 
 .contact_button:hover {
@@ -387,8 +387,9 @@ button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: flex-start;
+  margin-top: 5%;
 }
 
 .second_background {
