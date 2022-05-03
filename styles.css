@@ -305,7 +305,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 10%;
   background-image: url("images/contactform.png");
   background-image: url("images/Contactmebg.png");
   background-size: cover;
