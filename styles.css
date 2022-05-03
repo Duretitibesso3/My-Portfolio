@@ -75,7 +75,7 @@ main p {
 ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 /* work section */
