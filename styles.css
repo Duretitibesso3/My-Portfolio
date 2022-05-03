@@ -346,11 +346,12 @@ button {
 }
 
 .message_box {
+  margin-top: -4%;
   display: flex;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  height: 6em;
+  height: 15em;
   width: 327px;
   margin: 5px;
 }
@@ -363,15 +364,14 @@ button {
   font-size: 17px;
   line-height: 24px;
   width: 20em;
-  text-align: center;
   letter-spacing: 0.03em;
+  justify-content: center;
   color: #6070ff;
   align-items: flex-start;
-
-  /* margin-left: -30%;*/
-
   border-radius: 5px;
   border: unset;
+  padding: 10px;
+  margin-top: 2%;
 }
 
 .contact_button:hover {
