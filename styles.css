@@ -310,6 +310,7 @@ button {
   background-image: url("images/Contactmebg.png");
   background-size: cover;
   padding: 10px 40px;
+  margin-top: 30%;
 }
 
 .contact-me {
@@ -395,11 +396,13 @@ button {
 .second_background {
   background-image: url("images/contactform.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: 100% 40%;
 }
 
 .scroll {
   display: flex;
   justify-content: center;
   padding-top: 6px;
+  margin-top: 67px;
 }
