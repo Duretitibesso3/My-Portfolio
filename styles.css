@@ -468,9 +468,8 @@ button {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 52px;
-    flex: 1 1 100%;
     align-items: center;
     text-align: center;
   }
@@ -479,11 +478,15 @@ button {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 28px;
     text-align: center;
     color: #ebebff;
     margin-left: 30%;
+    width: 569px;
+    height: 102px;
+    left: 116px;
+    top: 68px;
   }
 
   .contact {
