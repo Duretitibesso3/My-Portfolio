@@ -453,67 +453,53 @@ button {
   }
 
   .forms {
-    margin:1% auto;
-		margin-right: auto; margin-left: auto; width: 21%; 
-		padding-top: 11px;
+    margin: 1% auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 21%;
+    padding-top: 11px;
   }
- .contact-me{
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  text-align: center;
- }
- .contact-paragraph{
-  width: 569px;
-height: 102px;
-left: 116px;
-top: 68px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
- }
- .contact-me {
-  margin-top: 20%;
-  display: flex;
-  margin-left: 45%;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 52px;
-  flex: 1 1 100%;
-}
-.contact-paragraph {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-  margin-left: 30%;
+  .contact-me {
+    margin-top: 20%;
+    display: flex;
+    margin-left: 45%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    flex: 1 1 100%;
+    align-items: center;
+    text-align: center;
 }
 
-.contact {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  background-image: url("images/contact-form-background-shapes-desktop.png");
-  background-image: url("images/contactbg.png");
-  background-size: cover;
-  padding: 0;
-  margin-top: 30%;
-  justify-content: center;
+  .contact-paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    margin-left: 30%;
 }
-.scroll{
-  display: none;
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("images/contact-form-background-shapes-desktop.png");
+    background-image: url("images/contactbg.png");
+    background-size: cover;
+    padding: 0;
+    margin-top: 30%;
+    justify-content: center;
+}
+
+  .scroll{
+    display: none;
 }
 .contact_button {
   display: flex;
