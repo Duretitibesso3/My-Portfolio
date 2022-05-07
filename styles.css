@@ -137,6 +137,7 @@ ul {
   font-weight: 400;
   font-size: 15px;
   color: #344563;
+  width: 62%;
 }
 
 .programming {
@@ -151,7 +152,7 @@ ul {
 
 .programming > li {
   background-color: #ebebff;
-  padding: 4px 12px;
+  padding: 4px 9px;
   border: none;
   border-radius: 15px;
   color: #6070ff;
@@ -410,11 +411,27 @@ button {
   display: none;
 }
 
+.bg {
+  display: flex;
+  width: 62%;
+  height: auto;
+}
+
+.tonic {
+  display: flex;
+  flex-direction: column;
+  margin: 6em 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
 /* media query */
 
 @media screen and (min-width: 768px) {
   .tonic {
-    margin: 8%;
+    margin: 1%;
     display: grid;
     grid-gap: 10px;
     grid-template-areas:
@@ -427,11 +444,13 @@ button {
 
   .bg {
     grid-area: bg;
-    margin-right: 10px;
+    margin-right: 24px;
+    width: 438px;
+    border-radius: 16px;
   }
 
   .card {
-    margin: 8%;
+    margin: 1%;
     display: grid;
     grid-gap: 10px;
     grid-template-areas:
@@ -543,5 +562,40 @@ button {
     font-size: 15px;
     line-height: 20px;
     margin-top: 5px;
+    padding-block: 20px;
+  }
+
+  .bttn {
+    font-family: inherit;
+    cursor: pointer;
+    flex-basis: auto;
+    color: #396df2;
+    font-size: 15px;
+    border: 1px solid #396df2;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: #fff;
+    margin-top: 20px;
+    width: 138px;
+  }
+
+  .section1 {
+    background: url("images/Header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #172b4d;
+    padding-top: 80px;
+  }
+
+  main {
+    padding: 10px 106px;
+  }
+
+  #foot {
+    padding: 10px 106px;
+  }
+
+  .socials {
+    padding: 10px 60px;
   }
 }
