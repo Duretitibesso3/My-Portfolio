@@ -598,4 +598,89 @@ button {
   .socials {
     padding: 10px 60px;
   }
+
+  main p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  .bttn:hover {
+    background-color: #6010ff;
+    color: #fff;
+  }
+
+  .contact_button:hover {
+    background-color: #6010ff;
+    color: #fff;
+  }
+
+  .btn:hover {
+    background-color: #6010ff;
+    color: #fff;
+  }
+
+  .bg:hover {
+    transform: translateY(-10px);
+  }
+
+  .btn:active {
+    background-color: #2230d2;
+    transition: 0.3s;
+  }
+
+  .bttn:active {
+    background-color: #2230d2;
+    transition: 0.3s;
+  }
+
+  .contact_button:active {
+    background-color: #2230d2;
+    transition: 0.3s;
+  }
+
+  .contact_button:disabled {
+    background-color: #fff;
+    color: #5e6c84;
+    border: 1px solid #e5e5e5;
+  }
+
+  .bttn:disabled {
+    background-color: #fff;
+    color: #5e6c84;
+    border: 1px solid #e5e5e5;
+  }
+
+  .btn:disabled {
+    background-color: #fff;
+    color: #5e6c84;
+    border: 1px solid #e5e5e5;
+  }
+
+  button:hover {
+    background-color: #6010ff;
+    color: #fff;
+  }
+
+  button:active {
+    background-color: #2230d2;
+    transition: 0.3s;
+  }
+
+  button:disabled {
+    background-color: #fff;
+    color: #5e6c84;
+    border: 1px solid #e5e5e5;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
