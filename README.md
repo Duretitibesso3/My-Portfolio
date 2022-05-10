@@ -10,6 +10,8 @@
 - Linters
 
 ## Getting Started
+## Live Demo
+[Live Demo Link](https://duretitibesso3.github.io/My-Portfolio/)
 
 
 To get a local copy up and running follow these simple example steps.
