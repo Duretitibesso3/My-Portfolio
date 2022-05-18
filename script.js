@@ -15,3 +15,29 @@ hamburger.addEventListener('click', (e) => {
   about.classList.add('menu-text');
   contact.classList.add('menu-text');
 });
+
+close.addEventListener('click', () => {
+  hamburger.classList.remove('hide');
+  navigation.classList.remove('show');
+});
+
+textPortfolio.addEventListener('click', (e) => {
+  e.stopPropagation();
+
+  navigation.classList.remove('show');
+  hamburger.classList.remove('hide');
+});
+
+about.addEventListener('click', (e) => {
+  e.stopPropagation();
+
+  navigation.classList.remove('show');
+  hamburger.classList.remove('hide');
+});
+
+contact.addEventListener('click', (e) => {
+  e.stopPropagation();
+
+  navigation.classList.remove('show');
+  hamburger.classList.remove('hide');
+});
