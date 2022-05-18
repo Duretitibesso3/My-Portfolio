@@ -41,5 +41,3 @@ contact.addEventListener('click', (e) => {
   navigation.classList.remove('show');
   hamburger.classList.remove('hide');
 });
-
-
