@@ -16,17 +16,20 @@
       <h1><a href="#">My Logo</a></h1>
     </div>
     <nav >
-      <div class="bar">
+      <div class="bar" id="bar">
         <i class="fa-solid fa-bars fa-2x"></i>
       </div>
+      <div class="hide" id="close">
+        <i class="fa-solid fa-xmark "></i>
+      </div>
       <ul class="barlist">
-        <li><a href=""></a>Portfolio</li>
-        <li><a href=""></a>Contact</li>
-        <li><a href=""></a>About</li>
+        <li><a href="#portfolio" class="nav-link-1" >Portfolio</a></li>
+        <li><a href="#about" class="nav-link-2">About</a></li>
+        <li><a href="#contact" class="nav-link-3">Contact</a></li>
       </ul>
     </nav>
 </header>
-<div class="section1">
+<div class="section1" >
   <main>
     <h1>I’m Dureti <br>
       Glad to see <br> you!</h1>
@@ -46,7 +49,7 @@
   </section>
     </div>
       <!--Work section-->
-    <div class="Worksection">
+    <div class="Worksection" id="portfolio">
       <section class="tonic">
         <img src="images/Portfolio.png" alt="" aria-hidden="true" class="bg">
         <h2 class="hone">Tonic</h2>
@@ -133,7 +136,7 @@
     </div>
     
     <!--About me-->
-    <div class="together">
+    <div class="together" id="about">
       <div>
         <section class="about">
           <h2>About <br> Myself</h2>
@@ -187,11 +190,8 @@
         </section>
     </div>
     </div>
-      
-    
-
-<!-- contact form solved -->
-    <footer class="contact">
+  <!-- contact form solved -->
+    <section class="contact" id="contact">
         <div class="second_background">
             <h1 class="contact-me">Contact me</h1>
             <p class="contact-paragraph">If you have an application you are interested in developing,
@@ -205,7 +205,11 @@
             </form>
             <p class="scroll"> <img src="images/Shape.png" alt=""></p>
         </div>
-    </footer>
-    <script src="https://kit.fontawesome.com/3bf83b5817.js" crossorigin="anonymous"></script>
+      </section>
+      <script src="https://kit.fontawesome.com/3bf83b5817.js" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
     </body>
-    </html>
+</html>
+      
+    
+
